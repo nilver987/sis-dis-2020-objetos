@@ -10,10 +10,8 @@ spring:
       server:
         git:
           uri: https://github.com/nilver987/sis-dis-2020-objetos.git # ruta del repositorio git
-          searchPaths: main
-          #username:
-          #password:
-          default-label: flutter
+          searchPaths: config-data
+          default-label: main
 
 
 
