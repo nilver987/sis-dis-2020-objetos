@@ -29,7 +29,8 @@ spring:
               - Content-Length
       discovery:
         locator:
-          enable: true
+          enabled: true
+
       routes:
         - id: ms-gestionestudiantes-service
           uri: lb://ms-gestionestudiantes-service
